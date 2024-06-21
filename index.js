@@ -114,7 +114,7 @@ export default function HomePage() {
     // Check to see if user is connected. If not, connect to their account
     if (!account) {
       return (
-        <button onClick={connectAccount}>Click to Connect</button>
+        <button onClick={connectAccount}>Connect to Metamask</button>
       );
     }
 
@@ -166,7 +166,7 @@ export default function HomePage() {
   return (
     <main className="container">
       <header>
-        <h1>بنك الإمارات</h1>
+        <h1>Welcome to Bank of Emirates</h1>
       </header>
       {initUser()}
       <style jsx>{`
